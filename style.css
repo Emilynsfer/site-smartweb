@@ -43,8 +43,7 @@ header a:hover {
 }
 
 #btn-menu {
-    color: white;
-    overflow: hidden;
+    display: none;
 }
  
 .menu-mobile{
@@ -430,6 +429,7 @@ footer img {
 @media (min-width: 360px) and (max-width: 767px) {
 
     #btn-menu {
+        display: flex;
         color: white;
         margin-right: 20px;
     }
