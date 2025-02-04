@@ -412,18 +412,101 @@ footer img {
 
 
 @media (min-width: 768px) and (max-width: 1280px) {
-    .imagem-de-fundo {
-        background-position: center;
-        height: 400px; /* Ajusta a altura da imagem de fundo */
-        margin: 10px 20px;
-    }
-    
-    
-    .imagem-de-fundo h3 {
-        font-size: 30px; /* Tamanho do texto ajustado */
-        padding: 90px 30px 20px 30px; /* Ajuste do padding */
+
+    #btn-menu {
+        display: flex;
+        color: white;
+        margin-right: 60px;
     }
 
+    header {
+        background-color: #130266;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    
+    header nav.menu-desktop {
+        display: none;
+    }
+
+    .btn-abrir-menu {
+        display: block;
+        color: black;
+        font-size: 40px;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column; 
+        padding: 0;
+        margin: 0;
+    }
+
+    header nav ul li {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    header a {
+        font-size: 18px; 
+        margin-bottom: 10px;
+    }
+
+    .imagem-de-fundo {
+        background-position: center;
+    }
+    
+    .imagem-de-fundo h3 {
+        padding-top: 120px;
+    }
+
+
+    
+    h1, h2, h3 {
+        font-size: 24px;  
+    }
+
+    .diferenciais {
+        display: grid;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+
+    .valor {
+        background-color: #130266;
+        margin: 0;
+    }
+
+    
+    img {
+        max-width: 100%;  
+        height: auto;  
+    }
+
+    .nossos-artigos {
+        margin: 20px 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 530px;
+        justify-content: space-between;
+        padding-top: 70px;
+    }
+
+    footer {
+        margin-top: 600px;
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-color: #130266;
+        padding-top: 60px;
+        height: 300px;
+    }
+
+    footer img {
+        width: 100px;  /* Ajusta o tamanho das imagens do rodapé */
+    }
 }
 
 @media (min-width: 360px) and (max-width: 767px) {
